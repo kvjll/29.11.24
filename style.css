@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+    background-image: url(proh.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mac{
+   
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    transform: scalex(-1) rotate(20deg);
+    width: fit-content;
+    top: 400px;
+    
+}
+@keyframes example {
+    0%{top: 400px; left: 0px;} 
+    10%{top: 350px; left: 200px; transform: scalex(-1);opacity: 1;}
+    20%{top: 300px; left: 400px;transform: scalex(-1);opacity: 1;}
+    30%{top: 280px; left: 500px;transform: scalex(-1);opacity: 1;}
+    40%{top: 280px; left: 600px; transform: scalex(-1);opacity: 1;}
+    50%{top: 300px; left: 700px; transform: rotate(300deg);transform: scalex(-1);opacity: 1;}
+    60%{top: 300px; left: 850px;transform: scalex(-1) rotate(300deg);opacity: 1;}
+    70%{top: 400px; left: 860px;transform: scalex(-1) rotate(300deg);opacity: 1;}
+    80%{top: 300px; left: 1000px;transform: scalex(-1) rotate(20deg);opacity: 1;}
+    90%{top: 200px; left: 900px; transform: scalex(-1) rotate(90deg); opacity: 1;}
+    100%{top: 200px; left: 900px; transform: scalex(-1) rotate(90deg); opacity: 0;}
+
+    
+}
+.car{
+    width: 200px;
+    height: 100px;
+}
+.coleso1{
+    position: absolute;
+    width: 39px;
+    height: 39 px;
+    top: 0px;
+    left: -90px;
+    animation-name: example1;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.coleso2{
+    animation-name: example1;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    position: absolute;
+    width: 39px;
+    height: 39 px;
+    top: 62px;
+    left: 50px;
+}
+@keyframes example1{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.vzruv{
+    height: 60px;
+    width: 60px;
+    margin-left: 1000px;
+    margin-top: 160px;
+    opacity: 0;
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.vzruv1{
+    height: 60px;
+    width: 60px;
+    margin-left: 900px;
+    margin-top: 100px;
+    opacity: 0;
+    animation-name: example3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes example2{
+    0%{opacity: 0;}
+    10%{opacity: 0;}
+    20%{opacity: 0;}
+    30%{opacity: 0;}
+    40%{opacity: 0;}
+    50%{opacity: 0;}
+    60%{opacity: 0;}
+    70%{opacity: 0;}
+    80%{opacity: 0;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes example3{
+    0%{opacity: 0;}
+    10%{opacity: 0;}
+    20%{opacity: 0;}
+    30%{opacity: 0;}
+    40%{opacity: 0;}
+    50%{opacity: 0;}
+    60%{opacity: 0;}
+    70%{opacity: 1;}
+    80%{opacity: 1;}
+    90%{opacity: 0;}
+    100%{opacity: 0;}
+}
